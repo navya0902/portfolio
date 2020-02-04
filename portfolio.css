@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'Poppins',sans-serif;
+}
+
+.header{
+padding-top:7rem;
+background: #000;
+color:#fff;
+font-family:'Poppins',sans-serif;
+}
+
+.about-text{
+    padding-top: 1rem;
+}
+
+h1{
+    font-size: 48px;
+    font-family:'Poppins',sans-serif;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+h2{
+    font-size: 48px;
+    font-family:'Poppins',sans-serif;
+    font-weight :500;
+    padding-bottom: 1rem;
+}
+
+p{
+    font-size: 21px;
+    font-family:'Poppins',sans-serif;
+}
+
+.explore-btn{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+}
+
+button[type="button"]{
+    background-color: #f06449;
+    color: #fff;
+    background: linear-gradient(270deg,#f06449,#ff8059);
+    border:none;
+    padding: .5rem;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    border:none;
+}
+
+button[type="button"]:hover{
+   color:white;
+   transform: rotate(180deg);
+   -webkit-transition: all 0.4s ease 0s;
+   -moz-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+}
+
+.img-logo{
+    max-width:50%;
+}
+
+.socialmedia{
+    text-align: center;
+    margin: 0 auto;
+    padding-top:8rem;
+    padding-bottom: 4rem;
+}
+
+.socialmedia ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.socialmedia ul li img{
+padding-right:5rem;
+width:85%;
+transition: .3s all ease-in-out;
+}
+
+.socialmedia ul li img:hover{
+    transform: scale(1.3);
+    transition: .3s all ease-in-out;
+}
